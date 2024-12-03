@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 
-export const DartsDel = () => {
+export const DeleteDarts = () => {
     const params = useParams();
     const id = params.dartsId;
     const navigate = useNavigate();
